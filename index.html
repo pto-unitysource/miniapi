@@ -20,9 +20,6 @@
     var vConsole = new window.VConsole({ theme: 'dark' });
     var appId = "kp06504d3abdcb41f5975f5a8b4b8809"; 
     console.log(window);
-    window.ma.native('getKBZPayToken',{appid: appId}).then(res => {
-        console.log('res: ',res);
-    });
     var token = window.kbzpay.getKBZPayToken(appId).then(token => {
       
     
