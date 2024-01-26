@@ -1,0 +1,9 @@
+{
+    "description": "项目配置文件。",
+    "compileType": "miniprogram",
+    "appid": "com.amo.kpaytoken",
+    "projectname": "",
+    "setting":{
+        "es5":true
+    }
+}

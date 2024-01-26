@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Kpay Api</title>
+
+<script src="js/angular/angular.min.js"></script>
+<script src="js/kbzpay/kbzpay.js"></script>
+
+<script src="js/vconsole.min.js"></script>
+<script src="js/jssdk/js-sdk.js"></script>
+<script src="js/jssdk/js-sdk.min.js"></script>
+</head>
+<body>
+
+
+  <script>
+    var vConsole = new window.VConsole({ theme: 'dark' });
+    var appId = "kp06504d3abdcb41f5975f5a8b4b8809"; 
+    console.log(window.kbzpay);
+    window.ma.native('getKBZPayToken',{appid: appId}).then(res => {
+        console.log('res: ',res);
+    });
+      
+
+  </script>
+</body>
+
+</html>

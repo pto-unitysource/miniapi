@@ -1,0 +1,8 @@
+{
+	"buildType": 0,
+	"buildCmd": "npm run build",
+	"buildDist": "/Users/airm1/development/testkpayapi/dist",
+	"entryPagePath": "index.html",
+	"appID": "com.amo.kpaytoken",
+	"isCompile": false
+}
